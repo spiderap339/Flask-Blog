@@ -1,0 +1,14 @@
+{
+  "params":
+  {
+    "local_server" : "True",
+    "local_uri" : "mysql://root:@localhost/dailyblog",
+    "prod_uri" : "mysql://root:@localhost/dailyblog",
+    "gmail-user" : "babu.anshuman@gmail.com",
+    "gmail-password" : "shrirambabu",
+    "no_of_posts" : 3,
+    "blog_name" : "Daily Blog",
+    "admin_user" : "ABC",
+    "admin_password" : "subscribenow"
+  }
+}

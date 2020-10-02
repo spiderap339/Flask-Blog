@@ -4,6 +4,7 @@ from datetime import datetime
 from flask_mail import Mail
 import json
 import math
+import iteltools
 
 with open('config.json', 'r') as c:
     params = json.load(c)["params"]
@@ -25,6 +26,13 @@ else:
     app.config['SQLALCHEMY_DATABASE_URI'] = params['prod_uri']
 db = SQLAlchemy(app)
 
+st="Ayush Awasthi"
+for i in range(len(st)):
+    if(st[i]=='A'):
+        st[i]='Y'
+ print(st)
+        
+    
 class Contacts(db.Model):
     '''
     sno, name, email, phone_num, mes, date
